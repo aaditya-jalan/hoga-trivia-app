@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HogaTriviaApp"
         tools:targetApi="31">
         <activity
+            android:name=".thankyou"
+            android:exported="false" />
+        <activity
             android:name=".film"
             android:exported="false" />
         <activity

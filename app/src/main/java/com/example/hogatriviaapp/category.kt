@@ -13,6 +13,7 @@ class category : AppCompatActivity() {
         val button2= findViewById<Button>(R.id.filmbutton)
         val button3= findViewById<Button>(R.id.sportsbutton)
         val button4= findViewById<Button>(R.id.sciencebutton)
+        val button5= findViewById<Button>(R.id.backbutton)
         button1.setOnClickListener {
             val intent2= Intent(this, art::class.java)
             startActivity(intent2)
@@ -28,6 +29,10 @@ class category : AppCompatActivity() {
         button4.setOnClickListener {
             val intent5= Intent(this, question::class.java)
             startActivity(intent5)
+        }
+        button5.setOnClickListener {
+            val intent6= Intent(this, MainActivity::class.java)
+            startActivity(intent6)
         }
 
     }
